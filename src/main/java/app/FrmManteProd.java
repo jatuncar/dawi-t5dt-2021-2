@@ -108,7 +108,8 @@ public class FrmManteProd extends JFrame {
 	void listado() {
 		List<Producto> lstProductos = em.createQuery("SELECT p FROM Producto p", Producto.class).getResultList();
 		for (Producto p : lstProductos) {
-			txtSalida.append(p.getIdprod() + " " + p.getDescripcion() + "\n");
+			txtSalida.append(p.getIdprod() + " " + p.getDescripcion() + " " + 
+							 p.getPrecio() + "\n");
 		} 
 		txtSalida.append("------------------------------------------");
 	}

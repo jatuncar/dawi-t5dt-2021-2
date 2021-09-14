@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.ciberfarma</groupId>
-	<artifactId>jpa_sesion02</artifactId>
-	<version>0.0.1</version>
+	<artifactId>jpa_sesion04</artifactId>
+	<version>1.0.0</version>
 	<name>jatuncar</name>
-	<description>Proyecto JPA con Maven</description>
+	<description>Proyecto JPA con Maven, controlado por Git</description>
 
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
